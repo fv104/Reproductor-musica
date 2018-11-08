@@ -1,0 +1,44 @@
+.Texto{
+    text-align: center;
+    background: blue;
+
+}
+
+body{
+    background: cadetblue;
+}
+
+#cuadro{
+    border: 1px solid #000000;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    padding: 10px;
+}
+
+#boton{
+    border: 1px solid #000000;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+
+}
+
+.texto2{
+    text-align: center;
+    text-decoration: forestgreen;
+}
+
+.buscador{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+#reproductor{
+    background: beige;
+    width: 200px;
+    height: 200px;
+    padding: 16px 20px;
+}
+
+h1 h3{
+    font-family:Arial,cursive;
+}
