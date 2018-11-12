@@ -19,6 +19,7 @@ body{
     border: 1px solid #000000;
     -moz-border-radius: 9px;
     -webkit-border-radius:9px;
+    padding: 10px;
 
 }
 
@@ -41,4 +42,7 @@ body{
 
 h1 h3{
     font-family:Arial,cursive;
+}
+#lista{
+    text-align: center;
 }

@@ -21,18 +21,20 @@ function soundcloud () {
     });
 
     SC.get('/tracks', {
-        q: 'u2'
+        q: $('#cuadro')[0].value
     }).then(function (tracks){
-        console.log(tracks)
+        //console.log(tracks)
         $('#lista').append('<div class="caratula" draggable="true"><img src="' + tracks[1].artwork_url + '" /></div>');
 
-        SC.stream('/tracks/'+tracks[1].id).then(function (player){
+
+
+       /* SC.stream('/tracks/'+tracks[1].id).then(function (player){
             player.play().then(function(){
                 console.log('Playback started!');
             }).catch(function(e){
                 console.error('Playback rejected. Try calling play() from a user interaction.', e);
             });
-        })
+        })*/
     })
 
 }
